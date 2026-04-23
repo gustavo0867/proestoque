@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { Colors, FontSizes, FontWeights } from '@/src/constants/theme';
 
-export default function HomeScreen() {
+export default function ConfiguracoesScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
+      <Text style={styles.text}>Configurações</Text>
     </View>
   );
 }
